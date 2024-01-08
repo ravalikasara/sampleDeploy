@@ -7,10 +7,10 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('twitter',(req, res) => {
+app.get('/twitter',(req, res) => {
     res.send('twitter')
   })
-app.get('login',(req,res)=>{
+app.get('/login',(req,res)=>{
     res.send('<h1>hi</h1>')
 })
 
