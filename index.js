@@ -11,7 +11,7 @@ app.get('/twitter',(req, res) => {
     res.send('twitter')
   })
 app.get('/login',(req,res)=>{
-    res.send('<h1>hi</h1>')
+    res.send('<h1>hi hru</h1>')
 })
 
 
